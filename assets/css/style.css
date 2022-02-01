@@ -64,6 +64,10 @@
     background: #f1f7fd;
 }
 
+.bg-gray-light {
+    background-color: rgba(0, 0, 0, 0.05);;
+}
+
 .service-icon {
     display: inline-flex;
     justify-content: center;
@@ -167,8 +171,8 @@
 
 /*Tabs*/
 .nav-pills-custom .nav-link {
-    color: #aaa;
-    background: #fff;
+    color: #2c4964;
+    background: rgba(0, 0, 0, 0.05);
     position: relative;
 }
 
@@ -194,4 +198,23 @@
 
 .nav-pills-custom .nav-link.active::before {
     opacity: 1;
+}
+
+
+/*Carousel*/
+.width-auto {
+    width: auto;
+}
+
+.text-lg {
+    font-size: 2rem;
+}
+
+.carousel-indicators li {
+    border: none !important;
+    background: #ccc !important;
+}
+
+.carousel-indicators li.active {
+    background: #2c4964 !important;
 }

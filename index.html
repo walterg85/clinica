@@ -55,7 +55,7 @@
     <!-- Hero -->
     <section id="hero" class="d-flex align-items-center">
         <div class="container">
-            <h1>Welcome to Medical</h1>
+            <h1 class="text-dark-blue">Welcome to Medical</h1>
             <p class="lead">
                 Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam.<br>
                 Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel.
@@ -173,9 +173,9 @@
         </section>
 
         <!-- Services -->
-        <section id="about-us" class="py-5 bg-blue-ligth">
+        <section id="services" class="py-5 bg-blue-ligth">
             <div class="container text-center">
-                <h1 class="display-5 text-dark-blue">Services</h1>
+                <h1 class="display-5 text-dark-blue">Our Services</h1>
                 <p class="lead my-3 mb-5">
                     Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. <br>
                     Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
@@ -239,9 +239,9 @@
         </section>
 
         <!-- Departments -->
-        <section id="departments" class="py-5">
+        <section id="departments" class="py-5 mb-5">
             <div class="container text-center">
-                <h1 class="display-5 text-dark-blue">Departments</h1>
+                <h1 class="display-5 text-dark-blue">Clinic Departments</h1>
                 <p class="lead my-3 mb-5">
                     Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. <br>
                     Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
@@ -251,53 +251,251 @@
                     <div class="col-md-3">
                         <!-- Tabs nav -->
                         <div class="nav flex-column nav-pills nav-pills-custom" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                            <a class="nav-link mb-3 p-3 shadow active" id="v-pills-cardio-tab" data-bs-toggle="pill" data-bs-target="#v-pills-cardio" role="tab" aria-controls="v-pills-cardio" aria-selected="true">
+                            <a class="nav-link p-5 active" id="v-pills-cardio-tab" data-bs-toggle="pill" data-bs-target="#v-pills-cardio" role="tab" aria-controls="v-pills-cardio" aria-selected="true">
                                 <span class="font-weight-bold small text-uppercase">Cardiology</span>
                             </a>
                             
-                            <a class="nav-link mb-3 p-3 shadow" id="v-pills-neurology-tab" data-bs-toggle="pill" data-bs-target="#v-pills-neurology" role="tab" aria-controls="v-pills-neurology" aria-selected="false">
+                            <a class="nav-link p-5" id="v-pills-neurology-tab" data-bs-toggle="pill" data-bs-target="#v-pills-neurology" role="tab" aria-controls="v-pills-neurology" aria-selected="false">
                                 <span class="font-weight-bold small text-uppercase">Neurology</span>
                             </a>                            
 
-                            <a class="nav-link mb-3 p-3 shadow" id="v-pills-hepatology-tab" data-bs-toggle="pill" data-bs-target="#v-pills-hepatology" role="tab" aria-controls="v-pills-hepatology" aria-selected="false">
+                            <a class="nav-link p-5" id="v-pills-hepatology-tab" data-bs-toggle="pill" data-bs-target="#v-pills-hepatology" role="tab" aria-controls="v-pills-hepatology" aria-selected="false">
                                 <span class="font-weight-bold small text-uppercase">Hepatology</span>
                             </a>
 
-                            <a class="nav-link mb-3 p-3 shadow" id="v-pills-pedriatic-tab" data-bs-toggle="pill" data-bs-target="#v-pills-pedriatic" role="tab" aria-controls="v-pills-pedriatic" aria-selected="false">
+                            <a class="nav-link p-5" id="v-pills-pedriatic-tab" data-bs-toggle="pill" data-bs-target="#v-pills-pedriatic" role="tab" aria-controls="v-pills-pedriatic" aria-selected="false">
                                 <span class="font-weight-bold small text-uppercase">Pediatrics</span>
                             </a>
                         </div>
                     </div>
 
-                    <div class="col-md-9">
-                        <!-- Tabs content -->
-                        <div class="tab-content" id="v-pills-tabContent">
-                            <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-cardio" role="tabpanel" aria-labelledby="v-pills-cardio-tab">
-                                <h4 class="font-italic mb-4">Cardiology</h4>
-                                <p class="font-italic text-muted mb-2">
-                                    Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero
-                                </p>
+                    <div class="col-md-9 bg-gray-light">
+                        <div class="row flex-row-reverse" style="height: 100%;">
+                            <div class="col-md-8">
+                                <!-- Tabs content -->
+                                <div class="tab-content text-start" id="v-pills-tabContent">
+                                    <div class="tab-pane fade show active pt-5 pe-4" id="v-pills-cardio" role="tabpanel" aria-labelledby="v-pills-cardio-tab">
+                                        <h4 class="text-dark-blue mb-0">Cardiology Deparments</h4>
+                                        <hr class="my-3 me-auto hr-title"/>
+                                        <h6 class="text-blue lead mb-4">Medical specialty concerned with the care of acutely ill hospitalized patients</h6>
+                                        <p style="text-align: justify;">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor est lorem, eu tempor elit molestie tempus. Donec molestie non arcu non aliquam. Fusce ante lectus, sagittis bibendum turpis non, blandit luctus ex. In rhoncus tincidunt nisl, vel consectetur augue vulputate eget. Nunc maximus turpis eget purus pharetra, posuere lacinia purus gravida.
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="tab-pane fade pt-5 pe-4" id="v-pills-neurology" role="tabpanel" aria-labelledby="v-pills-neurology-tab">
+                                        <h4 class="text-dark-blue mb-0">Neurological Deparments</h4>
+                                        <hr class="my-3 me-auto hr-title"/>
+                                        <h6 class="text-blue lead mb-4">Medical specialty concerned with the care of acutely ill hospitalized patients</h6>
+                                        <p style="text-align: justify;">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor est lorem, eu tempor elit molestie tempus. Donec molestie non arcu non aliquam. Fusce ante lectus, sagittis bibendum turpis non, blandit luctus ex. In rhoncus tincidunt nisl, vel consectetur augue vulputate eget. Nunc maximus turpis eget purus pharetra, posuere lacinia purus gravida.
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="tab-pane fade pt-5 pe-4" id="v-pills-hepatology" role="tabpanel" aria-labelledby="v-pills-hepatology-tab">
+                                        <h4 class="text-dark-blue mb-0">Ophthalmology Deparments</h4>
+                                        <hr class="my-3 me-auto hr-title"/>
+                                        <h6 class="text-blue lead mb-4">Medical specialty concerned with the care of acutely ill hospitalized patients</h6>
+                                        <p style="text-align: justify;">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor est lorem, eu tempor elit molestie tempus. Donec molestie non arcu non aliquam. Fusce ante lectus, sagittis bibendum turpis non, blandit luctus ex. In rhoncus tincidunt nisl, vel consectetur augue vulputate eget. Nunc maximus turpis eget purus pharetra, posuere lacinia purus gravida.
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="tab-pane fade pt-5 pe-4" id="v-pills-pedriatic" role="tabpanel" aria-labelledby="v-pills-pedriatic-tab">
+                                        <h4 class="text-dark-blue mb-0">Pediatrics Deparments</h4>
+                                        <hr class="my-3 me-auto hr-title"/>
+                                        <h6 class="text-blue lead mb-4">Medical specialty concerned with the care of acutely ill hospitalized patients</h6>
+                                        <p style="text-align: justify;">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor est lorem, eu tempor elit molestie tempus. Donec molestie non arcu non aliquam. Fusce ante lectus, sagittis bibendum turpis non, blandit luctus ex. In rhoncus tincidunt nisl, vel consectetur augue vulputate eget. Nunc maximus turpis eget purus pharetra, posuere lacinia purus gravida.
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
-                            
-                            <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-neurology" role="tabpanel" aria-labelledby="v-pills-neurology-tab">
-                                <h4 class="font-italic mb-4">Et blanditiis nemo veritatis excepturi</h4>
-                                <p class="font-italic text-muted mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            </div>
-                            
-                            <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-hepatology" role="tabpanel" aria-labelledby="v-pills-hepatology-tab">
-                                <h4 class="font-italic mb-4">Impedit facilis occaecati odio neque aperiam sit</h4>
-                                <p class="font-italic text-muted mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            </div>
-                            
-                            <div class="tab-pane fade shadow rounded bg-white p-5" id="v-pills-pedriatic" role="tabpanel" aria-labelledby="v-pills-pedriatic-tab">
-                                <h4 class="font-italic mb-4">Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h4>
-                                <p class="font-italic text-muted mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <div class="col-md-4 d-flex align-items-end">
+                                <div class="departments-img">
+                                    <img src="assets/img/departments.png" class="img-fluid">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- Clients says -->
+        <section id="clients" class="py-5 bg-blue-ligth">
+            <div class="container text-center mb-5">
+                <h1 class="display-6 text-dark-blue mb-0">Our Patients Says About Us</h1>
+                <p class="lead my-3 mb-5">
+                    Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country
+                </p>
+
+                <div class="row">
+                    <div class="col-lg-10 col-xl-8 mx-auto">
+                        <div class="p-5 bg-white shadow rounded">
+                            <div class="carousel slide" id="carouselCliente" data-bs-ride="carousel">
+                                <ol class="carousel-indicators mb-0">
+                                    <li data-bs-target="#carouselCliente" data-bs-slide-to="0" class="active"></li>
+                                    <li data-bs-target="#carouselCliente" data-bs-slide-to="1"></li>
+                                    <li data-bs-target="#carouselCliente" data-bs-slide-to="2"></li>
+                                </ol>
+
+                                <div class="carousel-inner px-5 pb-4 text-start">
+                                    <!-- Carousel slide-->
+                                    <div class="carousel-item active">
+                                        <div class="d-flex justify-content-start">
+                                            <img class="rounded-circle img-thumbnail d-none d-md-block" src="assets/img/client1.jpg" alt="" width="100">
+                                            <div class="ms-0 ms-md-4">
+                                                <blockquote class="blockquote border-0 p-0">
+                                                    <p class="lead">
+                                                        <i class="bi bi-quote me-2 text-blue"></i>
+                                                        <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em>
+                                                    </p>
+                                                    <footer class="blockquote-footer mt-0 mt-md-3">
+                                                        Client name
+                                                    </footer>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Carousel slide-->
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-start">
+                                            <img class="rounded-circle img-thumbnail d-none d-md-block" src="assets/img/client2.jpg" alt="" width="100">
+                                            <div class="ms-0 ms-md-4">
+                                                <blockquote class="blockquote border-0 p-0">
+                                                    <p class="lead"> 
+                                                        <i class="bi bi-quote me-2 text-blue"></i>
+                                                        <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em>
+                                                    </p>
+                                                    <footer class="blockquote-footer mt-0 mt-md-3">
+                                                        Client name
+                                                    </footer>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Carousel slide-->
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-start">
+                                            <img class="rounded-circle img-thumbnail d-none d-md-block" src="assets/img/client3.jpg" alt="" width="100">
+                                            <div class="ms-0 ms-md-4">
+                                                <blockquote class="blockquote p-0">
+                                                    <p class="lead"> 
+                                                        <i class="bi bi-quote me-2 text-blue"></i>
+                                                        <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em>
+                                                    </p>
+                                                    <footer class="blockquote-footer mt-0 mt-md-3">
+                                                        Client name
+                                                    </footer>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- Bootstrap controls [dots]-->
+                                <a class="carousel-control-prev width-auto" data-bs-target="#carouselCliente" role="button" data-bs-slide="prev">
+                                    <i class="bi bi-arrow-bar-left text-dark-blue text-lg"></i>
+                                    <span class="visually-hidden">Previous</span>
+                                </a>
+                                <a class="carousel-control-next width-auto" data-bs-target="#carouselCliente" role="button" data-bs-slide="next">
+                                    <i class="bi bi-arrow-bar-right text-dark-blue text-lg"></i>
+                                    <span class="visually-hidden">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section-->
+        <section class="contact py-5 bg-blue text-white">
+          <div class="container">
+            <div class="row gy-4">
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                  <div class="ms-3">       
+                    <h3 class="h5 mb-0">0800 2466 7921</h3>
+                    <p class="small mb-0">Have a question? call us now</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <div class="contact-icon"><i class="far fa-envelope"></i></div>
+                  <div class="ms-3">       
+                    <h3 class="h5 mb-0">info@mail.com</h3>
+                    <p class="small mb-0">Need support? Drop us an email</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="d-flex align-items-center">
+                  <div class="contact-icon"><i class="far fa-clock"></i></div>
+                  <div class="ms-3">       
+                    <h3 class="h5 mb-0">Mon – Fri 07:00 – 21:00</h3>
+                    <p class="small mb-0">We are open On</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer class="footer pt-5">
+          <div class="container pt-5">
+            <div class="row gy-4">
+              <div class="col-lg-3">
+                <h2 class="h5 lined text-white mb-4">About</h2>
+                <p class="text-muted text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                <p class="text-muted text-sm">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+                <ul class="list-inline mb-0">
+                  <li class="list-inline-item"><a class="social-link" href="#!"><i class="fab fa-facebook-f"></i></a></li>
+                  <li class="list-inline-item"><a class="social-link" href="#!"><i class="fab fa-twitter"></i></a></li>
+                  <li class="list-inline-item"><a class="social-link" href="#!"><i class="fab fa-google-plus"></i></a></li>
+                  <li class="list-inline-item"><a class="social-link" href="#!"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+              </div>
+              <div class="col-lg-5">
+                <h2 class="h5 text-white lined mb-4">Quick Links</h2>
+                <div class="d-flex">
+                  <ul class="list-unstyled d-inline-block me-4 mb-0">
+                    <li class="mb-2"><a class="footer-link" href="#!">Make appointments</a></li>
+                    <li class="mb-2"><a class="footer-link" href="#!">Doctors team</a></li>
+                    <li class="mb-2"><a class="footer-link" href="#!">Departments services</a></li>
+                    <li class="mb-2"><a class="footer-link" href="#!">About our clinic</a></li>
+                    <li class="mb-2"><a class="footer-link" href="#!">Contact us</a></li>
+                  </ul>
+                  <ul class="list-unstyled d-inline-block mb-0">
+                    <li class="mb-2"><a class="footer-link" href="index.html">Home </a></li>
+                    <li class="mb-2"><a class="footer-link" href="about.html">About us </a></li>
+                    <li class="mb-2"><a class="footer-link" href="contact.html">Contact us </a></li>
+                    <li class="mb-2"><a class="footer-link" href="#">About our clinic </a></li>
+                    <li class="mb-2"><a class="footer-link" href="#">Contact us </a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <h2 class="h5 text-white lined mb-4">Newsletter</h2>
+                <p class="text-muted text-sm">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+                <div class="input-group mb-3">
+                  <input class="form-control text-muted bg-none border-primary" type="text" placeholder="Email address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyrights">       
+            <div class="container text-center py-4">
+              <p class="mb-0 text-muted text-sm">&copy; 2022, Intelatlas. Template designed by <a href="intelatlas.com">Intelatlas.com</a>.</p>
+            </div>
+          </div>
+        </footer>
     </main>
 
 
